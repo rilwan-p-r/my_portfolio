@@ -92,7 +92,7 @@ const Contact = ({ isDarkMode }) => {
                         initial={{ x: -50, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ delay: 1.1, duration: 0.6 }}
-                        className='w-full p-3 outline-none border border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90'
+                        className='w-full p-3 outline-none border border-gray-400 rounded-md bg-white dark:bg-darkHover/10 dark:border-white/90'
                         type='text'
                         placeholder='Enter your name'
                         name='name'
@@ -102,7 +102,7 @@ const Contact = ({ isDarkMode }) => {
                         initial={{ x: 50, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ delay: 1.2, duration: 0.6 }}
-                        className='w-full p-3 outline-none border border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90'
+                        className='w-full p-3 outline-none border border-gray-400 rounded-md bg-white dark:bg-darkHover/10 dark:border-white/90'
                         type='email'
                         placeholder='Enter your email'
                         name='email'
@@ -118,7 +118,7 @@ const Contact = ({ isDarkMode }) => {
                     placeholder='Enter your message'
                     name='message'
                     required
-                    className='w-full p-3 outline-none border border-gray-400 rounded-md bg-white mb-6 resize-none dark:bg-darkHover/30 dark:border-white/90'
+                    className='w-full p-3 outline-none border border-gray-400 rounded-md bg-white mb-6 resize-none dark:bg-darkHover/10 dark:border-white/90'
                 ></motion.textarea>
 
                 <motion.button
